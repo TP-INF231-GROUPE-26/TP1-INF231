@@ -1,4 +1,5 @@
 Journal de projet - SAMY JACQUES LAFLEUR EYAMO EBETE (24G2816)
+
 Session du 24 septembre 2025
 
 Tâches réalisées :

@@ -1,4 +1,4 @@
-Rapport du programme : Produit vectoriel et Produit vecteur × matrice
+Rapport des programme (8 et 9) : Produit vectoriel et Produit vecteur × matrice
 
 Introduction
 

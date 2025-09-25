@@ -2,7 +2,7 @@
 
 ### 1. Introduction
 
-Ce rapport présente et explique un code en langage C permettant d'effectuer une **recherche séquentielle**  dans un tableau d'éléments de type `float`. La recherche séquentielle consiste à parcourir un tableau élément par élément afin de trouver (ou non) la première occurrence d'une valeur recherchée et de renvpoyer l'indice de la case si cet élément est trouvé.
+Ce rapport présente et explique un code en langage C permettant d'effectuer une **recherche séquentielle**  dans un tableau d'éléments de type `float`. La recherche séquentielle consiste à parcourir un tableau élément par élément afin de trouver (ou non) la première occurrence d'une valeur recherchée et de renvoyer l'indice de la case si cet élément est trouvé.
 
 #### 2. Fonctionnement du programme
 

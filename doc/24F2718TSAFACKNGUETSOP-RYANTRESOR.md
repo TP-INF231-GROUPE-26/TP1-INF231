@@ -6,4 +6,5 @@ Les lignes 33 à 39 affichent le résultat de la comparaison et indiquent à l'u
 
 pour utiliser ce programme il suffit d entrer dans le terminale la commande suivante:
 gcc 7.tableau_trié.c -o nom de l executable
+
 ./ 7.tableau_trié

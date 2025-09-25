@@ -18,9 +18,6 @@ int main()
         scanf("%d", &T[i]);
     }
 
-    int Croissant = 1;
-    int Decroissant = 1;
-
     for (int i = 0; i < n - 1; i++) {
         if (T[i] > T[i + 1]) {
             Croissant = 0;

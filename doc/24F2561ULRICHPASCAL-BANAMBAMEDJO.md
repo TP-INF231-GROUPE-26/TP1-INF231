@@ -1,10 +1,10 @@
-# Rapport : Recherche Séquentielle en Langage C
+# Rapport TP1 (Travqil à faire): Ecrire un programme de Recherche Séquentielle en Langage C.
 
-# 1. Introduction
+## 1. Introduction
 
-Ce rapport présente et explique un code en langage C permettant d'effectuer une **recherche séquentielle**  dans un tableau d'éléments de type `float`. La recherche séquentielle consiste à parcourir un tableau élément par élément afin de trouver (ou non) la première occurrence d'une valeur recherchée.
+Ce rapport présente et explique un code en langage C permettant d'effectuer une **recherche séquentielle**  dans un tableau d'éléments de type `float`. La recherche séquentielle consiste à parcourir un tableau élément par élément afin de trouver (ou non) la première occurrence d'une valeur recherchée et de renvpoyer l'indice de la case si cet élément est trouvé.
 
-# 2. Présentation du code
+## 2. Présentation du code
 
 ### Code source (En langage de programmation C)
 ```c
@@ -63,11 +63,10 @@ Le programme parcourt le tableau du début à la fin :
 - Si la boucle termine sans trouver la valeur, `c` reste à -1.
 
 ### e) Affichage du résultat
-- Si `c != -1`, la position de l'élément est affichée (en commençant à 1).
+- Si `c != -1`, la position de l'élément est affichée.
 - Sinon, un message indique que la valeur n'a pas été trouvée.
 
 ---
-
 ## 4. Exemple d'exécution
 
 ```
@@ -82,23 +81,7 @@ Entrer l'element numero 4 du tableau: 8
 L'element recherche se trouve a la position numero 2 du tableau
 ```
 
----
 
-## 5. Analyse et remarques
+## 5. Conclusion
 
-- **Robustesse** : Le programme vérifie que la taille du tableau n’excède pas 99 éléments de sorte à ce qu'il n'y ai pas d'érreur.
-- **Limites** :
-  - La recherche s’arrête à la première occurrence.
-  - Le test d’égalité sur les flottants (`float`) peut être imprécis à cause de l’arithmétique des flottants.
-  - La taille maximale du tableau est fixée à 100.
-- **Améliorations possibles** :
-  - Gérer la recherche de toutes les occurrences.
-  - Proposer une comparaison de flottants avec une "marge d’erreur" (epsilon).
-  - Permettre la saisie automatique du tableau.
-
----
-
-## 6. Conclusion
-
-Ce code illustre parfaitement la méthode de recherche séquentielle, simple mais efficace pour de petits tableaux ou lorsqu'il n'y a pas d'exigence de performance particulière. Elle est facile à comprendre et à implémenter, mais peu adaptée aux grands ensembles de données.
-
+Ce code illustre  la méthode de recherche séquentielle, simple mais efficace. Elle est facile à comprendre et à implémenter. 

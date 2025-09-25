@@ -1,3 +1,5 @@
+// pour les complexités on considera chaque variables comme une unité mémoire.
+
 Projet 1 & 2: Addition et Multiplication de deux Matrices
 
     Description : Ce programme permet d'additionner et de multiplier deux matrices de même taille. Il demande à l'utilisateur de saisir les dimensions des matrices et valide si elles sont conformes aux règles de l'addition matricielle (même nombre de lignes et de colonnes, et une taille inférieure à 100) pour l'addition  et les règles de la multiplication matriciellle pour la multiplication. Ensuite, il lit les éléments des deux matrices, les additionnes ou les multiplies, et affiche la matrice résultat (résultat de l'opération).
@@ -26,17 +28,17 @@ Projet 4 : Produit par Additions Répétées
 
     Complexité Temporelle : O(a∗b). Le programme a deux boucles imbriquées : la première s'exécute b fois, et la seconde a fois. Le nombre total d'opérations est donc le produit des deux nombres.
 
-    Complexité Spatiale : O(1). Le programme utilise un nombre fixe de variables (a, b, p, i, j) quel que soit les valeurs d'entrée. L'espace mémoire est constant.
+    Complexité Spatiale : 5. Le programme utilise un nombre fixe (5) de variables (a, b, p, i, j) quel que soit les valeurs d'entrée. L'espace mémoire est constant.
 
 Projet 5 : Vérification de l'Ordre d'un Tableau
 
     Description : Ce programme vérifie si un tableau d'entiers est trié par ordre croissant, décroissant, ou s'il n'est pas trié du tout.
 
     Fonctionnalités : Saisie d'un tableau, vérification de l'ordre, affichage du résultat.
-
+                Avec n la taille du tableau.
     Complexité Temporelle : O(n). Le programme parcourt le tableau une seule fois. La complexité est donc linéaire.
 
-    Complexité Spatiale : O(n). L'espace mémoire est nécessaire pour stocker les éléments du tableau de taille n.
+    Complexité Spatiale : O(n) + 2 pour les variables. L'espace mémoire est nécessaire pour stocker les éléments du tableau de taille n.
 
 Projet 6 : Calculer la Médiane
 
@@ -44,7 +46,7 @@ Projet 6 : Calculer la Médiane
 
     Fonctionnalités : Saisie d'un tableau, tri par sélection, calcul de la médiane.
 
-    Complexité Temporelle : O(n2). Le tri par sélection est un algorithme quadratique. Il utilise une double boucle imbriquée où chaque élément est comparé à tous les autres.
+    Complexité Temporelle : O(n^2). Le tri par sélection est un algorithme quadratique. Il utilise une double boucle imbriquée où chaque élément est comparé à tous les autres.
 
     Complexité Spatiale : O(n). L'espace mémoire est proportionnel à la taille du tableau. Le tri s'effectue sur place, ce qui n'ajoute pas d'espace supplémentaire majeur.
 
@@ -56,7 +58,7 @@ Projet 7 : Inversion d'un Tableau
 
     Complexité Temporelle : O(n). Le programme parcourt le tableau une seule fois pour inverser les éléments.
 
-    Complexité Spatiale : O(n). Le programme utilise un tableau d'entrée et un nouveau tableau de même taille pour stocker le résultat inversé, ce qui double l'espace requis.
+    Complexité Spatiale : 2 * O(n). Le programme utilise un tableau d'entrée et un nouveau tableau de même taille pour stocker le résultat inversé, ce qui double l'espace requis.
 
 Projet 8 : Produit Vectoriel
 
@@ -76,4 +78,4 @@ Projet 9 : Produit Matrice-Vecteur
 
     Complexité Temporelle : O(n∗m). Pour calculer chaque élément du vecteur résultat, le programme doit parcourir la colonne correspondante de la matrice, ce qui prend n opérations. Comme il y a m colonnes, la complexité totale est O(n∗m).
 
-    Complexité Spatiale : O(n∗m). L'espace est nécessaire pour stocker le vecteur d'entrée, la matrice, et le vecteur résultat. L'espace est dominé par la matrice, donc la complexité spatiale est proportionnelle à sa taille.
+    Complexité Spatiale : O(n + n∗m + m ). L'espace est nécessaire pour stocker le vecteur d'entrée, la matrice, et le vecteur résultat.
